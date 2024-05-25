@@ -1,0 +1,5 @@
+export {default as MyResume} from './MyResume'
+export {default as PersonalInfo} from './PersonalInfo'
+export {default as Education} from './Education'
+export {default as WorkExperience } from './WorkExperience'
+export {default as KeySkills} from './KeySkills'

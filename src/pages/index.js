@@ -1,0 +1,5 @@
+export {default as Preview} from './Preview/Preview'
+export {default as Header} from './Header'
+export {default as AboutUs} from './About Us/AboutUs'
+export {default as Templates} from './Home/Templates'
+export {default as Detailsfilling} from './Detailsfilling'
