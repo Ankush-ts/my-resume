@@ -31,7 +31,7 @@ const Header = () => {
                         value={value}>
 
                         <Tab LinkComponent={Link} to="/" label={"Resume Templates"} />
-                        <Tab LinkComponent={Link} to="/myresume" label={"My Resumes"} />
+                        <Tab LinkComponent={Link} to="/myresume" label={"My Resume"} />
                         <Tab LinkComponent={Link} to="/about" label={"About Us"} />
 
                     </Tabs>
