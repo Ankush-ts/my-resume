@@ -6,6 +6,8 @@ import {
   FacebookIcon,
   LinkedinIcon,
   LinkedinShareButton,
+  XIcon,
+  TwitterShareButton,
 } from 'react-share';
 import { About } from '../../assets'
 
@@ -55,6 +57,17 @@ const AboutUs = () => {
             >
               <LinkedinIcon className='buttonIcons' size={40} round={true} />
             </LinkedinShareButton>
+          </div>
+
+          <div style={{ marginRight: "2vh" }}>
+
+            <TwitterShareButton
+              url={'https://x.com/'}
+              quote={'Social media'}
+              hashtag={'#'}
+            >
+              <XIcon className='buttonIcons' size={40} round={true} />
+            </TwitterShareButton>
           </div>
 
           <div style={{ marginRight: "2vh" }}>

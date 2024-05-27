@@ -45,7 +45,7 @@ function Resume3(props) {
         style={{
           width: "100%",
           height: "18vh",
-          backgroundColor: "rgb(8, 36, 61)",
+          backgroundColor: "Highlight",
         }}
       >
         <h1

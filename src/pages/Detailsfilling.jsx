@@ -142,9 +142,9 @@ function Detailfilling(props) {
 
           {/* Sidebar for page Navigation */}
           <div className="side">
-            <ul style={{ marginTop: '5vw', backgroundColor:'white' }}>
+            <ul style={{ marginTop: '5vw', backgroundColor: 'white' }}>
               <li
-                className={`cursor-pointer border-black ${activeComponent === 'personal' ?  ' text-blue-600 underline' : ' text-gray-500'
+                className={`cursor-pointer border-black ${activeComponent === 'personal' ? ' text-blue-600 underline' : ' text-gray-500'
                   }`}
                 onClick={() => handleSidebarClick('personal')}
               >
