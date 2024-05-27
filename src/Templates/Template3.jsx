@@ -173,17 +173,17 @@ function Resume3(props) {
 
 // Map the Redux state to component props
 const mapStateToProps = (state) => {
-    return {
-      // Assigning contactReducer state to 'contact' prop
-      contact: state.contactReducer,
-      // Assigning educationReducer state to 'education' prop
-      education: state.educationReducer,
-      // Assigning experienceReducer state to 'experience' prop
-      experience: state.experienceReducer,
-      // Assigning keyskillsReducer state to 'skills' prop
-      skills: state.keyskillsReducer
-    };
+  return {
+    // Assigning contactReducer state to 'contact' prop
+    contact: state.contactReducer,
+    // Assigning educationReducer state to 'education' prop
+    education: state.educationReducer,
+    // Assigning experienceReducer state to 'experience' prop
+    experience: state.experienceReducer,
+    // Assigning keyskillsReducer state to 'skills' prop
+    skills: state.keyskillsReducer
   };
-  
+};
+
 // Connecting the component to Redux store
 export default connect(mapStateToProps)(Resume3);

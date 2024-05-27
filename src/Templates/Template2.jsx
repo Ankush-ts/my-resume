@@ -50,8 +50,8 @@ function Resume2(props) {
           style={{
             float: "left",
             width: "32%",
-            height:'95%'
-            
+            height: '95%'
+
 
           }}
         >
@@ -69,39 +69,39 @@ function Resume2(props) {
                 width: "full",
                 color: "white",
                 marginBottom: "2vh",
-                marginLeft :'1vh',
-                padding:'1px'
+                marginLeft: '1vh',
+                padding: '1px'
               }}
             >
               PERSONAL INFO
-              <hr style={{ border: '2px solid yellowgreen', width:'10%'}} />
+              <hr style={{ border: '2px solid yellowgreen', width: '10%' }} />
             </h1>
-            
 
-           <div className="ml-4">
-           <p className="w-full text-white mb-2">
-              {getcontactData(fieldCd.FirstName)}{" "}
-              {getcontactData(fieldCd.LastName)}{" "}
-            </p>
-            {experienceData[maxKey] && (
-              <p style={{ fontSize: "100%", letterSpacing: "2px", color: 'white', marginBottom: '4px' }}>
-                {experienceData[maxKey].jobTitle}
+
+            <div className="ml-4">
+              <p className="w-full text-white mb-2">
+                {getcontactData(fieldCd.FirstName)}{" "}
+                {getcontactData(fieldCd.LastName)}{" "}
               </p>
-            )}
-            
-            <p className="w-full text-white mb-2">
-              <HomeWorkIcon /> {getcontactData(fieldCd.Address)},{" "}
-              {getcontactData(fieldCd.City)}-{getcontactData(fieldCd.State)}.{" "}
-              {"(" + getcontactData(fieldCd.Postal) + ")"}
-            </p>
-            <p className="w-full text-white mb-2">
-              <EmailIcon /> {getcontactData(fieldCd.Email)}
-            </p>
-            <p className="w-full text-white mb-2">
-              <CallIcon /> +91-{getcontactData(fieldCd.Mobile)}
-            </p>
-           </div>
-            
+              {experienceData[maxKey] && (
+                <p style={{ fontSize: "100%", letterSpacing: "2px", color: 'white', marginBottom: '4px' }}>
+                  {experienceData[maxKey].jobTitle}
+                </p>
+              )}
+
+              <p className="w-full text-white mb-2">
+                <HomeWorkIcon /> {getcontactData(fieldCd.Address)},{" "}
+                {getcontactData(fieldCd.City)}-{getcontactData(fieldCd.State)}.{" "}
+                {"(" + getcontactData(fieldCd.Postal) + ")"}
+              </p>
+              <p className="w-full text-white mb-2">
+                <EmailIcon /> {getcontactData(fieldCd.Email)}
+              </p>
+              <p className="w-full text-white mb-2">
+                <CallIcon /> +91-{getcontactData(fieldCd.Mobile)}
+              </p>
+            </div>
+
           </div>
 
 
@@ -119,13 +119,13 @@ function Resume2(props) {
                 width: "full",
                 color: "black",
                 marginBottom: "8px",
-                marginLeft :'1vh',
-                paddingTop:'4px',
-                padding:'1px'
+                marginLeft: '1vh',
+                paddingTop: '4px',
+                padding: '1px'
               }}
             >
               KEY SKILLS
-              <hr style={{ border: '2px solid yellowgreen', width:'10%'}} />
+              <hr style={{ border: '2px solid yellowgreen', width: '10%' }} />
             </h2>
 
             {/* Rendering key skills */}
@@ -161,7 +161,7 @@ function Resume2(props) {
             <h2
               style={{
                 fontSize: "250%",
-                fontWeight:'bold',
+                fontWeight: 'bold',
                 letterSpacing: "5px",
                 color: "black",
               }}
@@ -172,11 +172,11 @@ function Resume2(props) {
 
           {/* Rendering job title from experienceData */}
           {experienceData[maxKey] && (
-            <p style={{ fontSize: "100%", letterSpacing: "5px", backgroundColor:'yellowgreen' }}>
+            <p style={{ fontSize: "100%", letterSpacing: "5px", backgroundColor: 'yellowgreen' }}>
               {experienceData[maxKey].jobTitle}
-              
+
             </p>
-            
+
           )}
 
           <br />
@@ -188,12 +188,12 @@ function Resume2(props) {
               width: "full",
               height: "4vh",
               color: "black",
-              
-              
+
+
             }}
           >
             OBJECTIVE
-            <hr style={{ border: '2px solid yellowgreen', width:'10%'}} />
+            <hr style={{ border: '2px solid yellowgreen', width: '10%' }} />
           </div>
 
           <p
@@ -214,13 +214,13 @@ function Resume2(props) {
               height: "4vh",
               width: "full",
               color: "black",
-              marginTop:'3vh'
+              marginTop: '3vh'
             }}
           >
             <h1 >
               WORK EXPERIENCE
             </h1>
-            <hr style={{ border: '2px solid yellowgreen', width:'10%'}} />
+            <hr style={{ border: '2px solid yellowgreen', width: '10%' }} />
           </div>
 
           {/* Rendering work experience */}
@@ -240,18 +240,18 @@ function Resume2(props) {
             </div>
           ))}
 
-          <h1 style={{ marginTop: "3vh" }}></h1>
           <div
             style={{
               height: "4vh",
               width: "full",
               color: "black",
-              fontWeight:"bold"
-              
+              fontWeight: "bold",
+              marginTop: "3vh"
+
             }}
           >
-            <h1 style={{  color: "black" }}>EDUCATION</h1>
-            <hr style={{ border: '2px solid yellowgreen', width:'10%'}} />
+            <h1 style={{ color: "black" }}>EDUCATION</h1>
+            <hr style={{ border: '2px solid yellowgreen', width: '10%' }} />
           </div>
           <h1
             className="type"
