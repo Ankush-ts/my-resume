@@ -141,7 +141,7 @@ function Detailfilling(props) {
         <div style={{ marginLeft: '7vw', width: '30vh' }}>
 
           {/* Sidebar for page Navigation */}
-          <sidebar className="side">
+          <div className="side">
             <ul style={{ marginTop: '5vw', backgroundColor:'white' }}>
               <li
                 className={`cursor-pointer border-black ${activeComponent === 'personal' ?  ' text-blue-600 underline' : ' text-gray-500'
@@ -173,7 +173,7 @@ function Detailfilling(props) {
                 Key Skill
               </li>
             </ul>
-          </sidebar>
+          </div>
         </div>
         <div>
           {/* Render component based on activeComponent */}

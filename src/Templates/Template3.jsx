@@ -3,7 +3,6 @@ import React from "react";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import "./Template3.css";
 import { connect } from "react-redux";
 import fieldCd from "../Redux/constants/typeCodes";
@@ -95,9 +94,7 @@ function Resume3(props) {
           <p className="para" style={{ display: "flex" }}>
             <EmailIcon /> {getContactData(fieldCd.Email)}
           </p>
-          <p className="para">
-            <CalendarMonthIcon /> {getContactData(fieldCd.Dob)}
-          </p>
+
           <p className="para">
             <HomeWorkIcon /> {getContactData(fieldCd.Address)},{" "}
             {getContactData(fieldCd.City)}-{getContactData(fieldCd.State)}.{" "}

@@ -4,15 +4,12 @@ import { connect } from "react-redux";
 import { setcontact, updatecontact } from "../Redux/actions/setcontact";
 import fieldCd from "../Redux/constants/typeCodes";
 import { useNavigate } from "react-router-dom";
-import AccountBoxIcon from "@mui/icons-material/AccountBox";
+
 import {
   Box,
   Card,
   FormControl,
   Button,
-  Typography,
-  Snackbar,
-  Alert,
   TextField,
 } from "@mui/material";
 import { toast } from "react-toastify";
@@ -159,13 +156,7 @@ function PersonalInformation(props) {
                 "Please enter a valid 6-digit pin-code"
               }
             />
-            <TextField
-              type="date"
-              {...register(fieldCd.Dob, { required: true })}
-              defaultValue={props.contact ? props.contact[fieldCd.Dob] : ""}
-              error={errors[fieldCd.Dob] ? true : false}
-              helperText={errors[fieldCd.Dob] && "Date of Birth is required"}
-            />
+           
           </Box>
 
           {/* Objective textarea */}

@@ -3,7 +3,6 @@ import "./Template1.css";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { connect } from "react-redux";
 import fieldCd from "../Redux/constants/typeCodes";
 
@@ -78,13 +77,7 @@ function Resume1(props) {
             {getcontactData(fieldCd.FirstName)}{" "}
             {getcontactData(fieldCd.LastName)}
           </p>
-          <p
-            className="DOB"
-            style={{ width: "90%", color: "white", marginBottom: "2vh" }}
-          >
-            <CalendarMonthIcon />
-            {getcontactData(fieldCd.Dob)}
-          </p>
+         
           <p
             className="ADDRESS"
             style={{ width: "90%", color: "white", marginBottom: "2vh" }}
@@ -244,7 +237,7 @@ function Resume1(props) {
             </div>
           ))}
 
-          <h1 style={{ paddingTop: "5px" }}></h1>
+          
           <div
             style={{
               height: "4vh",
