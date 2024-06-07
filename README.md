@@ -3,11 +3,10 @@
 
 ## Resume-Builder
 
-Introducing Resume Builder, the ultimate React application that empowers you to craft eye-catching resumes like never before. You can easily customise your resume with Resume Builder's user-friendly interface to highlight your unique skills and professional experience.
+This project is a resume builder application.
+A React application that empowers you to build resumes like never before.
 
-Stand out from the crowd and make a lasting impression with Resume Builder, the perfect tool to land your dream job. Start building your future today!
-
-**Just select template - Fill in the details and voila! Your resume is ready to preview and download.**
+Just select a template, fill in the details and your resume is ready to preview and download.
 
 ## Installation
 
