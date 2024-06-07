@@ -41,7 +41,7 @@ function Resume2(props) {
           width: "84vh",
           height: "120vh",
           border: "1px solid gray",
-          paddingLeft: 10,
+          padding: '10px',
           backgroundColor: "rgb(230, 230, 230)",
         }}
       >
@@ -70,7 +70,7 @@ function Resume2(props) {
                 color: "white",
                 marginBottom: "2vh",
                 marginLeft: '1vh',
-                padding: '1px'
+                padding: '5px'
               }}
             >
               PERSONAL INFO
@@ -120,8 +120,7 @@ function Resume2(props) {
                 color: "black",
                 marginBottom: "8px",
                 marginLeft: '1vh',
-                paddingTop: '4px',
-                padding: '1px'
+                padding: '5px'
               }}
             >
               KEY SKILLS
@@ -139,6 +138,8 @@ function Resume2(props) {
 
         </div>
 
+
+        {/* Right container */}
         <div
           style={{
             float: "right",
@@ -147,7 +148,7 @@ function Resume2(props) {
             padding: "5% 5%",
           }}
         >
-          <div style={{ marginTop: "-2vh" }}>
+          <div style={{ marginTop: "-2vh", padding: '5px' }}>
             <h2
               style={{
                 fontSize: "250%",
@@ -171,13 +172,11 @@ function Resume2(props) {
           </div>
 
           {/* Rendering job title from experienceData */}
-          {experienceData[maxKey] && (
-            <p style={{ fontSize: "100%", letterSpacing: "5px", backgroundColor: 'yellowgreen' }}>
+          <div style={{ backgroundColor: 'yellowgreen', padding: '5px' }}>
+            <p style={{ fontSize: "100%", letterSpacing: "5px" }}>
               {experienceData[maxKey].jobTitle}
-
             </p>
-
-          )}
+          </div>
 
           <br />
           <hr />
@@ -201,8 +200,7 @@ function Resume2(props) {
             style={{
               height: "auto",
               width: "full",
-              paddingTop: "5px",
-              paddingBottom: "5px",
+              padding: '5px',
               color: "black",
             }}
           >
@@ -259,7 +257,7 @@ function Resume2(props) {
               height: "auto",
               width: "full",
               fontWeight: "bold",
-              paddingTop: "5px",
+              padding: "5px",
               color: "black",
             }}
           >
