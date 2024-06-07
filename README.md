@@ -1,12 +1,13 @@
 # AlmaBetter Frontend Capstone Project
-# Resume Builder Project
+
+## Resume Builder Project
 
 This project is a resume builder application.
 A React application that empowers you to build resumes like never before.
 
 Just select a template, fill in the details and your resume is ready to preview and download.
 
-# Installation
+## Installation
 Clone this repository in your local machine and install the needed dependencies
 
 Type npm start in terminal to start the application after installing the dependencies using npm install <package_name>
@@ -20,7 +21,7 @@ Type npm start in terminal to start the application after installing the depende
 - Material UI and Icons
 - Tailwing-css
 
- # Application Folder Structure
+ ## Application Folder Structure
 
 ```bash
 ├── public/
