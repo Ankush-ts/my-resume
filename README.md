@@ -43,10 +43,10 @@ Type **npm start** in terminal to start the application after installing the dep
 │	├──Components/
 │   	├── Education.js
 │   	├── index.jsx
-│		├──Keyskills.jsx
-│		├──MyResume.jsx
-│		├──PersonalInfo.jsx
-│		├──WorkExperience.jsx
+│		  ├──Keyskills.jsx
+│		  ├──MyResume.jsx
+│		  ├──PersonalInfo.jsx
+│		  ├──WorkExperience.jsx
 │	├──Data/
 │		├──data.js
 │	├──pages/
